@@ -32,7 +32,7 @@ class CalculateWatts extends React.Component {
           <form onSubmit={this.handleSubmit}>
             <p>
               <label>
-                How long is your ledstrip: 
+                How long is your ledstrip (in meter): 
                 <input type="numeric" name="length" onChange={this.handleSetLength} />
               </label>
             </p>
