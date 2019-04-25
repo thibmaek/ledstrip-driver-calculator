@@ -29,7 +29,7 @@ const IndexPage = () => (
           <input type="numeric" name="maximumPowerDraw" />
         </label>
       </p>
-      <input type="submit" value="Submit" onSubmit={} />
+      <input type="submit" value="Submit" />
     </form>
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
