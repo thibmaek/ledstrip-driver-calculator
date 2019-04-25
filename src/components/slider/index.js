@@ -5,7 +5,7 @@ import {
 import 'antd/lib/slider/style/css';
 import PropTypes from "prop-types"
 
-import styles from './slider.module.css';
+import styles from './Slider.module.css';
 
 const Slider = ({ min, max, onChangeSlider, unit, step }) => (
   <div className={styles.rowContainer}>
